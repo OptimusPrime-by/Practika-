@@ -1,0 +1,46 @@
+            * {
+                padding: 0;
+                margin: 0;
+            }
+            
+            h1 {
+                font-size: 24px;
+                color: rgb(32, 4, 59);
+                font-family: Nautilus;
+            }
+            
+            h2 {
+                font-size: 18px;
+                color: rgb(129, 8, 93);
+            }
+            
+            p {
+                font-size: 14 px;
+            }
+            
+            @font-face {
+                font-family: Nautilus;
+                src: url(Nautilus.otf);
+            }
+            
+            body {
+                /*background: url(img/fon.jpg) repeat-y;*/
+                /* Параметры фона */
+                background: rgba(224, 160, 212, 0.993)url(images/hand.png) repeat-y;
+            }
+            
+            p1 {
+                color: blue;
+            }
+            
+            p2 {
+                color: blueviolet;
+            }
+            
+            p3 {
+                Color: rgb(200, 245, 0);
+            }
+            
+            p4 {
+                color: brown;
+            }

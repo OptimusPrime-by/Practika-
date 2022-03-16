@@ -1,0 +1,118 @@
+.box {
+    position: absolute;
+    display: block;
+    height: 510px;
+    width: 500px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+    background-color: #db82db;
+}
+
+.v1,
+.v2,
+.v3,
+.v4,
+.v5,
+.v6,
+.v7,
+.v8,
+.v9,
+.v10,
+.v11,
+.v12,
+.v13,
+.v14,
+.v15,
+.v16,
+.v17 {
+    position: absolute;
+    display: block;
+    background-color: rgb(11, 0, 105);
+    height: 100px;
+    width: 100px;
+    border-radius: 2px;
+    left: 100px;
+}
+
+.v2 {
+    top: 0;
+    left: 202px;
+}
+
+.v3 {
+    top: 0;
+    left: 304px;
+}
+
+.v4 {
+    left: 304px;
+    top: 102px;
+}
+
+.v5 {
+    left: 304px;
+    top: 204px;
+}
+
+.v6 {
+    left: 304px;
+    top: 306px;
+}
+
+.v7 {
+    left: 304px;
+    top: 408px;
+}
+
+.v8 {
+    left: 304px;
+    top: 102px;
+}
+
+.v9 {
+    left: 304px;
+    top: 205px;
+}
+
+.v10 {
+    left: 304px;
+    top: 306px;
+}
+
+.v11 {
+    left: 304px;
+    top: 408px;
+}
+
+.v12 {
+    left: 202px;
+    top: 408px;
+}
+
+.v13 {
+    left: 202px;
+    top: 204px;
+}
+
+.v14 {
+    left: 102;
+    top: 204px;
+}
+
+.v15 {
+    left: 102;
+    top: 102px
+}
+
+.v16 {
+    left: 102;
+    top: 306px;
+}
+
+.v17 {
+    left: 102;
+    top: 408px;
+}

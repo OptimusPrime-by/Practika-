@@ -1,0 +1,92 @@
+    .box {
+        position: fixed;
+        display: block;
+        height: 510px;
+        width: 500px;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        top: 0;
+        margin: auto;
+        background-color: #e2d9d8;
+    }
+    
+    .b1,
+    .b7,
+    .b8,
+    .b9,
+    .b10,
+    .b11,
+    .b12,
+    .b13,
+    .b14,
+    .b15,
+    .b16,
+    .b17,
+    .b18 {
+        position: fixed;
+        display: block;
+        background-color: rgb(58, 82, 126);
+        height: 100px;
+        width: 100px;
+        border-radius: 2px;
+        margin-left: 100px;
+    }
+    
+    .b7 {
+        margin-left: 202px;
+    }
+    
+    .b8 {
+        margin-left: 304px;
+    }
+    
+    .b9 {
+        margin-left: 304px;
+        margin-top: 102px;
+    }
+    
+    .b10 {
+        margin-left: 304px;
+        margin-top: 204px;
+    }
+    
+    .b11 {
+        margin-left: 304px;
+        margin-top: 306px;
+    }
+    
+    .b12 {
+        margin-left: 304px;
+        margin-top: 408px;
+    }
+    
+    .b13 {
+        margin-left: 202px;
+        margin-top: 408px;
+    }
+    
+    .b14 {
+        margin-left: 100px;
+        margin-top: 408px;
+    }
+    
+    .b15 {
+        margin-left: 100px;
+        margin-top: 306px;
+    }
+    
+    .b16 {
+        margin-left: 100px;
+        margin-top: 204px;
+    }
+    
+    .b17 {
+        margin-left: 100px;
+        margin-top: 102px;
+    }
+    
+    .b18 {
+        margin-left: 202px;
+        margin-top: 204px;
+    }
