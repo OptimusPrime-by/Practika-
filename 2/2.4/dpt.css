@@ -1,0 +1,154 @@
+.box {
+    position: absolute;
+    display: block;
+    height: 510px;
+    width: 500px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+    background-color: #e2d9d8;
+}
+
+.b1 {
+    position: relative;
+    display: flex;
+    background-color: rgb(65, 8, 223);
+    height: 100px;
+    width: 100px;
+    border-radius: 2px;
+    left: 102px;
+}
+
+.b2 {
+    position: relative;
+    display: flex;
+    background-color: rgb(86, 4, 219);
+    height: 100px;
+    width: 100px;
+    border-radius: 2px;
+    left: 204px;
+    top: -100px;
+}
+
+.b3 {
+    position: relative;
+    display: flex;
+    background-color: rgb(16, 19, 194);
+    height: 100px;
+    width: 100px;
+    border-radius: 2px;
+    left: 306px;
+    top: -200px;
+}
+
+.b4 {
+    position: relative;
+    display: flex;
+    background-color: rgb(57, 11, 221);
+    height: 100px;
+    width: 100px;
+    border-radius: 2px;
+    left: 306px;
+    top: -198px;
+}
+
+.b5 {
+    position: relative;
+    display: flex;
+    background-color: rgb(119, 13, 206);
+    height: 100px;
+    width: 100px;
+    border-radius: 2px;
+    left: 306px;
+    top: -196px;
+}
+
+.b6 {
+    position: relative;
+    display: flex;
+    background-color: rgb(106, 8, 218);
+    height: 100px;
+    width: 100px;
+    border-radius: 2px;
+    left: 306px;
+    top: -194px;
+}
+
+.b7 {
+    position: relative;
+    display: flex;
+    background-color: rgb(66, 16, 206);
+    height: 100px;
+    width: 100px;
+    border-radius: 2px;
+    left: 306px;
+    top: -192px;
+}
+
+.b17 {
+    position: relative;
+    display: flex;
+    background-color: rgb(99, 15, 155);
+    height: 100px;
+    width: 100px;
+    border-radius: 2px;
+    left: 102px;
+    top: -598px;
+}
+
+.b16 {
+    position: relative;
+    display: flex;
+    background-color: rgb(139, 9, 122);
+    height: 100px;
+    width: 100px;
+    border-radius: 2px;
+    left: 102px;
+    top: -596px;
+}
+
+.b15 {
+    position: relative;
+    display: flex;
+    background-color: rgb(145, 14, 127);
+    height: 100px;
+    width: 100px;
+    border-radius: 2px;
+    left: 102px;
+    top: -594px;
+}
+
+.b14 {
+    position: relative;
+    display: flex;
+    background-color: rgb(119, 17, 167);
+    height: 100px;
+    width: 100px;
+    border-radius: 2px;
+    left: 102px;
+    top: -592px;
+}
+
+.b13 {
+    position: relative;
+    display: flex;
+    background-color: rgb(22, 132, 223);
+    height: 100px;
+    width: 100px;
+    border-radius: 2px;
+    left: 204px;
+    top: -692px;
+}
+
+.b18 {
+    position: relative;
+    display: flex;
+    background-color: rgb(107, 7, 189);
+    height: 100px;
+    width: 100px;
+    border-radius: 2px;
+    left: 204px;
+    top: -996px;
+}
