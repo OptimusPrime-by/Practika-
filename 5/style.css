@@ -1,0 +1,65 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+div {
+    position: absolute;
+}
+
+.body {
+    margin-left: 38.5vw;
+    margin-top: 54vh;
+    border-left: 150px solid transparent;
+    border-right: 150px solid transparent;
+    border-bottom: 500px solid rgb(165, 115, 6);
+}
+
+.lopast1 {
+    margin-left: 41.9vw;
+    margin-top: 32.3vh;
+    width: 0;
+    height: 0;
+    border-left: 60px solid transparent;
+    border-right: 60px solid transparent;
+    border-top: 300px solid #751a03;
+}
+
+.lopast2 {
+    margin-left: 44vw;
+    margin-top: 50.4vh;
+    width: 0;
+    height: 0;
+    border-top: 60px solid transparent;
+    border-right: 300px solid #751a03;
+    border-bottom: 60px solid transparent;
+}
+
+.lopast6 {
+    margin-left: 33vw;
+    margin-top: 50.5vh;
+    width: 0;
+    height: 0;
+    border-top: 60px solid transparent;
+    border-left: 300px solid #751a03;
+    border-bottom: 60px solid transparent;
+}
+
+.lopast4 {
+    margin-left: 41.9vw;
+    margin-top: 5vh;
+    width: 0%;
+    height: 50%;
+    border-left: 60px solid transparent;
+    border-right: 60px solid transparent;
+    border-bottom: 300px solid #751a03;
+}
+
+.circle {
+    margin-left: 43.2vw;
+    margin-top: 53vh;
+    width: 50px;
+    height: 50px;
+    background: red;
+    border-radius: 50%
+}
