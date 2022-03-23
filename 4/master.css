@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+h3 {
+    display: none;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    background-image: url(1банк.jpg);
+}
+
+.wrapper {
+    width: 900px;
+    border-radius: 10px;
+    background-color: rgb(4, 206, 71);
+    opacity: 0.9;
+    padding: 30px;
+}
+
+form {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    row-gap: 15px;
+}
+
+input,
+select {
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+.col-1 {
+    justify-self: srat;
+    align-self: center;
+}
+
+button {
+    text-align: center;
+    font-size: 48px;
+    background-color: rgb(138, 18, 194);
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+p {
+    font-size: 28px;
+}
+
+.col-3 input {
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+}
+
+label {
+    color: white;
+    font-size: 32px;
+}
+
+@media (max-width: 1200px) {
+    body,
+    form {
+        display: block;
+    }
+    .wrapper {
+        width: auto;
+        display: block;
+        background-color: rgb(1, 1, 61);
+    }
+    h3 {
+        color: white;
+        display: block;
+    }
+    label {
+        display: none;
+    }
+    body {
+        background-image: none;
+    }
+    div {
+        margin-top: 25 px;
+    }
+}
