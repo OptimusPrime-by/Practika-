@@ -44,7 +44,7 @@ select {
 }
 
 button {
-    text-align: center;
+    text-align: left;
     font-size: 48px;
     background-color: rgb(138, 18, 194);
     color: white;
@@ -66,6 +66,9 @@ p {
 label {
     color: white;
     font-size: 32px;
+}
+.col-2 input{
+    width: auto;
 }
 
 @media (max-width: 1200px) {
