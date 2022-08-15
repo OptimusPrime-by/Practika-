@@ -1,0 +1,502 @@
+.body {
+    background-color: #000000;
+    
+    background-size:100%;
+}
+
+.black_color {
+    color: white;
+    background-color: black;
+}
+
+@media screen and (min-width: 768px) {
+    .item {
+        text-align: center;
+        font-size: 16px;
+    }
+    .grid_status {
+        padding: 15px;
+        text-align: center;
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: repeat(9, 100px);
+        gap: 15px;
+    }
+	.color_CD5C5C {
+        background-color: #CD5C5C;
+        grid-row: 1 / span 1;
+        grid-column: 1 / 7;
+        padding-top: 40px;
+    }
+    .color_DC143C {
+        background-color: #DC143C;
+        grid-row: 1 / span 1;
+        grid-column: 7 / 13;
+        padding-top: 40px;
+    }
+   
+    .color_FFC0CB {
+        background-color: #FFC0CB;
+        grid-row: 2/ span 2;
+        grid-column: 1 / 9;
+        padding-top: 40px;
+    }
+    .color_FF69B4 {
+        background-color: #FF69B4;
+        grid-row: 2/ span 1;
+        grid-column: 9 /  13;
+        padding-top: 40px;
+    }
+    .color_C71585 {
+        background-color: #C71585;
+        grid-row: 3/ span 1;
+        grid-column: 9 /  13;
+        padding-top: 100px;
+    }
+    .color_ADFF2F {
+		background-color: #adff2f;
+        grid-row: 4 / span 2;
+        grid-column: 1 / 4;
+        padding-top: 40px;
+    }
+   
+    .color_32CD32{
+        background-color: #32CD32;
+        grid-row: 4 / span 1;
+        grid-column: 4 / 6;
+        padding-top: 40px;
+    }
+    .color_00FA9A{
+         background-color: #00FA9A;
+        grid-row: 4 / span 1;
+        grid-column: 6 / 8;
+        padding-top: 40px;
+    }
+    .color_2E8B57{       
+        background-color: #2E8B57;
+        grid-row: 4 / span 1;
+        grid-column: 8 / 13;
+        padding-top: 40px;
+    }
+    .color_006400{
+         background-color: #006400;
+        grid-row: 5 / span 1;
+        grid-column: 4 / 8;
+        padding-top: 40px;        
+    }
+    .color_9ACD32{
+        background-color: #9ACD32;
+        grid-row: 5 / span 1;
+        grid-column: 8 /11;
+        padding-top: 40px; 
+        
+    }
+    .color_808000{
+        background-color: #00FF00;
+        grid-row: 5 / span 1;
+        grid-column: 11 / 13;
+        padding-top: 40px;
+    }
+    
+    .color_00FF00{
+        background-color: #00FF00;
+        line-height: 9.3;
+        grid-row: 6 / span 1;
+        grid-column: 1 / 4;
+        padding-top: 40px;
+    }
+     .color_66CDAAй{
+        background-color: #66CDAA;
+        grid-row: 6 / span 1;
+        grid-column: 4 / 6;
+        font-size: 16px;
+    } 
+    /* #kek{
+        background-color: #66CDAA;
+        grid-row: 6 / span 1;
+        grid-column: 4 / 6;
+        font-size: 16px;
+    } */
+    .color_556B2F{
+         background-color: #556B2F;
+        grid-row: 6 / span 1;
+        grid-column: 6 / 8;
+        padding-top: 40px;      
+    }
+  
+    .color_008080 {
+         background-color: #BC8F8F;
+        grid-row: 6 / span 1;
+        grid-column: 8 / 13;
+        padding-top: 40px; 
+        
+    }
+    .color_FFA07A{
+        background-color: #FFA07A;
+        grid-row: 7 / span 1;
+        grid-column: 2 / 6;
+        padding-top: 40px;
+        
+    }
+    .color_FF4500{
+        background-color: #FF4500;
+        grid-row: 7 / span 1;
+        grid-column: 8 / 12;
+        padding-top: 40px;
+        
+    }
+    .color_BC8F8F{
+        background-color: #BC8F8F;
+        grid-row: 8 / span 1;
+        grid-column: 1 / 4;
+        padding-top: 40px;
+        
+    }
+    .color_F4A460{
+		background-color: #F4A460;
+	   grid-row: 8 / span 1;
+	   grid-column: 4 / 10;
+	   padding-top: 40px;        
+   }
+    .color_D2691E{
+        background-color: #D2691E;
+        grid-row: 8 / span 1;
+        grid-column: 10 / 13;
+        padding-top: 100px;
+        
+    }
+	
+   .color_8B4513{
+     background-color: #FFA500;
+     grid-row: 9 / span 1;
+     grid-column: 1 / 7;
+     padding-top: 40px;        
+    
+    }
+    .color_A52A2A{
+    background-color: #A52A2A;
+    grid-row: 9 / span 1;
+    grid-column: 7 / 13;
+    padding-top: 40px;        
+   
+}
+}
+
+
+@media screen and (min-width:321px) and (max-width:768px)  {
+    .item {
+        text-align: center;
+        font-size: 14px;
+    }
+    .grid_status {
+        height: 100%;
+        padding: 15px;
+        text-align: center;
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: repeat(9, 100px);
+        gap: 10px;
+    }
+      .color_CD5C5C {
+        background-color: #CD5C5C;
+        grid-row: 1 / span 1;
+        grid-column: 1 / 9;
+        padding-top: 40px;
+    }
+    .color_DC143C {
+        background-color: #DC143C;
+        grid-row: 1 / span 1;
+        grid-column: 9 / 13;
+        padding-top: 40px;
+    }
+    .color_FFC0CB {
+        background-color: #FFC0CB;
+        grid-row: 2/ span 2;
+        grid-column: 1 / 7;
+        padding-top: 40px;
+    }
+      .color_FF69B4 {
+        background-color: #FF69B4 ;
+        grid-row: 2 / span 1;
+        grid-column: 7 / 13;
+        padding-top: 40px; 
+	  
+    }
+    .color_C71585 {
+        background-color: #C71585;
+        grid-row: 3/ span 1;
+        grid-column: 7 / 13;
+        padding-top: 40px;
+    }
+    .color_ADFF2F {
+        background-color: #ADFF2F;
+        grid-row: 4/ span 3;
+        grid-column: 1 /  4;
+        padding-top: 40px;
+    }
+    .color_32CD32 {
+        background-color: #00FA9A;
+        grid-row: 4/ span 1;
+        grid-column: 4 /  7;
+        padding-top: 100px;
+    }
+    
+    .color_00FA9A{
+        background-color: #00FA9A;
+        line-height: 9.3;
+        grid-row: 4 / span 1;
+        grid-column: 7 / 10;
+        padding-top: 40px;
+    }
+    .color_2E8B57{
+        background-color: #2E8B57;
+        grid-row: 4 / span 1;
+        grid-column: 10 / 13;
+        padding-top: 40px;
+    }
+    .color_006400{
+        
+     background-color: #006400;
+        grid-row: 5 / span 1;
+        grid-column: 4 / 7;
+        padding-top: 40px;
+    }
+    .color_9ACD32{       
+        background-color: #808000;
+        grid-row: 5 / span 1;
+        grid-column: 7 /10;
+        padding-top: 40px;
+    }
+    .color_808000{       
+        background-color: #808000;
+        grid-row: 5 / span 1;
+        grid-column: 10 /13;
+        padding-top: 40px;
+    }
+    .color_66CDAA{
+        background-color: #66CDAA;
+        grid-row: 6 / span 1;
+        grid-column: 4 /7;
+        padding-top: 40px;   
+        
+    }
+    
+    .color_556B2F{
+        background-color: #556b2f;
+        grid-row: 6 / span 1;
+        grid-column: 7 / 10;
+        padding-top: 50px;
+        
+    }
+    .color_008080{
+        background-color: #008080;
+        grid-row: 6 / span 1;
+        grid-column: 10 /13;
+        padding-top: 40px;
+        
+    }
+    .color_FFA07A{
+        background-color: #FFA07A;
+        grid-row: 7 / span 1;
+        grid-column: 1 / 7;
+        padding-top: 40px;
+        
+    }
+    .color_FF4500{
+        background-color: #FF4500;
+        grid-row: 7 / span 1;
+        grid-column: 7 / 13;
+        padding-top: 40px;
+        
+    }
+    .color_BC8F8F{
+		background-color: #BC8F8F;
+	   grid-row: 8 / span 2;
+	   grid-column: 1 / 5;
+	   padding-top: 40px;        
+   }
+   .color_D2691E{
+	background-color: #D2691E;
+   grid-row: 8 / span 2;
+   grid-column: 5 / 9;
+   padding-top: 40px;        
+  }
+	.color_8B4513{
+		background-color: #8B4513;
+	   grid-row: 8 / span 1;
+	   grid-column: 9 / 13;
+	   padding-top: 40px;        
+   }
+   .color_A52A2A{
+	background-color: #A52A2A;
+   grid-row: 9 / span 1;
+   grid-column: 9 / 13;
+   padding-top: 40px;        
+  }
+  .color_F4A460{
+	background-color: #F4A460;
+   display: none;        
+  }
+  .color_00FF00{
+	display: none;        
+  }
+}
+
+
+
+
+@media screen and (max-width: 320px) {
+    .item {
+        text-align: center;
+        font-size: 10px;
+    }
+    .grid_status {
+        height: 100%;
+        padding: 15px;
+        text-align: center;
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: repeat(16, 50px);
+        gap: 10px;
+    }
+    .color_CD5C5C {
+        background-color: #CD5C5C;
+        grid-row: 1 / span 1;
+        grid-column: 1 / 9;
+        padding-top: 40px;
+    }
+    .color_DC143C {
+        background-color: #DC143C;
+        grid-row: 1 / span 1;
+        grid-column: 9 / 13;
+        padding-top: 40px;
+    }
+    .color_FFC0CB {
+        background-color: #FFC0CB;
+        grid-row: 2/ span 2;
+        grid-column: 1 / 13;
+        padding-top: 40px;
+    }
+      .color_FF69B4 {
+        background-color: #FF69B4 ;
+        grid-row: 4 / span 2;
+        grid-column: 1 / 5;
+        padding-top: 40px; 
+	  
+    }
+    .color_C71585 {
+        background-color: #C71585;
+        grid-row: 4/ span 2;
+        grid-column: 5 / 13;
+        padding-top: 40px;
+    }
+    .color_ADFF2F {
+        background-color: #ADFF2F;
+        grid-row: 6/ span 1;
+        grid-column: 1 /  13;
+        padding-top: 40px;
+    }
+    .color_32CD32 {
+        background-color: #32CD32;
+        grid-row: 7/ span 1;
+        grid-column: 1 /  7;
+        padding-top: 40px;
+    }
+   
+    .color_00FA9A{
+        background-color: #00FA9A;
+        grid-row: 7 / span 1;
+        grid-column: 7 / 13;
+        padding-top: 40px;
+    }
+
+    .color_006400{
+        background-color: #006400;
+       grid-row: 8 / span 1;
+       grid-column: 1 / 7;
+       padding-top: 40px;        
+   }
+   .color_9ACD32{
+    background-color: #9ACD32;
+   grid-row: 8 / span 1;
+   grid-column: 7/ 13;
+   padding-top: 40px;        
+ }
+    .color_66CDAA{
+        background-color: #66CDAA;
+        grid-row: 9 / span 1;
+        grid-column: 1 /7;
+        padding-top: 40px;   
+        
+    }
+    .color_556B2F{
+        background-color: #556B2F;
+        grid-row:9 / span 1;
+        grid-column: 7 / 13;
+        padding-top: 40px; 
+        
+    }
+    
+    .color_FFA07A{
+         background-color: #FFA07A;
+        grid-row: 10 / span 1;
+        grid-column: 1 / 7;
+        padding-top: 40px;      
+    }
+    .color_FF4500{
+        background-color: #66cdaa;
+        grid-row: 10 / span 1;
+        grid-column: 7 /13;
+        padding-top: 40px; 
+    }
+    .color_BC8F8F {
+         background-color: #BC8F8F;
+        grid-row: 11 / span 2;
+        grid-column: 1 / 13;
+        padding-top: 40px; 
+        
+    }
+    .color_D2691E{
+        background-color: #D2691E;
+        grid-row: 13 / span 2;
+        grid-column: 1 / 13;
+        padding-top: 50px;
+        
+    }
+    .color_8B4513{
+        background-color: #8B4513;
+        grid-row: 15 / span 1;
+        grid-column: 1 / 13;
+        padding-top: 40px;
+        
+    }
+    .color_A52A2A{
+        background-color: #A52A2A;
+        grid-row: 16 / span 1;
+        grid-column: 1 / 13;
+        padding-top: 40px;
+        
+    }
+
+    .color_2E8B57{
+       display: none;
+        
+    }
+    .color_808000{
+        display: none;
+         
+     }
+   .color_00FF00{
+        display: none;
+         
+     }
+     .color_008080{
+        display: none;
+         
+     }
+     .color_F4A460{
+        display: none;
+         
+    }
+}
+
